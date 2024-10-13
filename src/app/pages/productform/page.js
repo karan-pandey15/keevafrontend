@@ -28,7 +28,7 @@ const ProductForm = () => {
     images.forEach((image) => formData.append("images", image));
 
     try {
-      const response = await fetch("http://localhost:5005/api/products", {
+      const response = await fetch("https://api.keeva.in/api/products", {
         method: "POST",
         body: formData,
       });

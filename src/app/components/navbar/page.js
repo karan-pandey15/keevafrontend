@@ -51,7 +51,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     axios
-      .post("http://localhost:5005/api/logout-user")
+      .post("https://api.keeva.in/api/logout-user")
       .then((response) => {
         if (response.data.Status === "Success") {
           localStorage.clear();
@@ -66,7 +66,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get("http://localhost:5005/api/user-data");
+        const response = await axios.get("https://api.keeva.in/api/user-data");
         setUser(response.data.Data);
       } catch (error) {
         console.error("Error fetching user data:", error);

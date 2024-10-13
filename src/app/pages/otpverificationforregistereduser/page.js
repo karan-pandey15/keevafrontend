@@ -39,7 +39,7 @@ const OTPVerificationForRegisteredUser = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5005/api/verify-otp-user",
+        "https://api.keeva.in/api/verify-otp-user",
         {
           email: formData.email,
           otp: formData.otp,

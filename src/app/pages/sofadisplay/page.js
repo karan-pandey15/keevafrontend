@@ -11,7 +11,7 @@ import { add } from '@/Redux/Cartslice';
 import { toast } from 'react-toastify';
 
 // Update this URL to your actual backend API endpoint
-const ProductsApi = 'http://localhost:5005/api/products'; 
+const ProductsApi = 'https://api.keeva.in/api/products'; 
 
 export default function Sofadisplay() {
   const [products, setProducts] = useState([]);

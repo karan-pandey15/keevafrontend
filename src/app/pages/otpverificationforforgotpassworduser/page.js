@@ -39,7 +39,7 @@ const OTPVerificationForForgotPasswordUser = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5005/api/verify-reset-otp-user",
+        "https://api.keeva.in/api/verify-reset-otp-user",
         {
           email: formData.email,
           otp: formData.otp,

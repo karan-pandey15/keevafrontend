@@ -24,7 +24,7 @@ const CartPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5005/api/user-data")
+      .get("https://api.keeva.in/api/user-data")
       .then((res) => {
         if (res.data.Status === "Success") {
           setAuth(true);
@@ -57,7 +57,7 @@ const CartPage = () => {
   const checkout = async () => {
     try {
       const user = JSON.parse(localStorage.getItem('user'));
-      const response = await fetch('http://localhost:5005/api/save-order', {
+      const response = await fetch('https://api.keeva.in/api/save-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

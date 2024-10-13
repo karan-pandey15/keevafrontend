@@ -28,7 +28,7 @@ const ForgotPassword = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5005/api/forgot-password-user",
+        "https://api.keeva.in/api/forgot-password-user",
         {
           email: formData.email,
         }

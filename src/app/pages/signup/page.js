@@ -38,7 +38,7 @@ const SignUp = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5005/api/register-user",
+        "https://api.keeva.in/api/register-user",
         {
           username: formData.username,
           phone: formData.phone,

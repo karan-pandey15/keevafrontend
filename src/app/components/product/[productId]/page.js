@@ -9,7 +9,7 @@ import { useDispatch } from 'react-redux';
 import { add } from '@/Redux/Cartslice'; 
 import { toast } from 'react-toastify';
 
-const ProductsApi = 'http://localhost:5005/api/products';  
+const ProductsApi = 'https://api.keeva.in/api/products';  
 
 export default function ProductDetails() {
   const router = usePathname();

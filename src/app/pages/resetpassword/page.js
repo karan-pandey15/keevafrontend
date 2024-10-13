@@ -39,7 +39,7 @@ const ResetPassword = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5005/api/reset-password-user",
+        "https://api.keeva.in/api/reset-password-user",
         {
           email: formData.email,
           newPassword: formData.password,
