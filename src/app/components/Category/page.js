@@ -284,10 +284,7 @@ const Category = () => {
       </div>
 
     </section> 
-
-    <hr />
-    
-    <AllProduct />
+ 
     </>
   );
 };
