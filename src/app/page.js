@@ -4,6 +4,7 @@ import Banner1 from "./components/homepage/page";
 import Footer from "./components/footer/page"; 
 import Navbar from "./components/navbar/page";    
 import AllProduct from "./pages/allproducts/page";
+import "./globals.css"
 export default function Home() {
   return (
     <main>   

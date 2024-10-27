@@ -98,7 +98,7 @@ const Category = () => {
         </div>
 
         <div className="round_container">
-          <Link href="/pages/wardrobe">
+          <Link href="/pages/wardrobedisplay">
         
               <Image
                 src={Wardrobeimage}
@@ -179,7 +179,7 @@ const Category = () => {
 
         
         <div className="round_container">
-          <Link href="/pages/counterisplay">
+          <Link href="/pages/counterdisplay">
       
               <Image
                 src={Counterimage}
