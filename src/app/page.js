@@ -3,6 +3,7 @@ import Category from "./components/Category/page";
 import Banner1 from "./components/homepage/page";
 import Footer from "./components/footer/page"; 
 import Navbar from "./components/navbar/page";    
+import AllProduct from "./pages/allproducts/page";
 export default function Home() {
   return (
     <main>   
@@ -16,6 +17,9 @@ export default function Home() {
       <div>
         <Category />
       </div> 
+      <div>
+         <AllProduct />
+      </div>
       <div>
         <Footer />
       </div>
